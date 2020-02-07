@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/home"
+        android:title="home" />
+
+    <item
+        android:id="@+id/navigation_info"
+        android:icon="@drawable/box"
+        android:title="info" />
+
+
+    <item
+        android:id="@+id/navigation_scoial"
+        android:icon="@drawable/share"
+        android:title="Social" />
+
+    <item
+        android:id="@+id/navigation_cart"
+        android:icon="@drawable/ic_view_headline_black_24dp"
+        android:title="My Orders" />
+    <item
+        android:id="@+id/navigation_wallet"
+        android:icon="@drawable/wallet"
+        android:title="Omi Wallet" />
+
+</menu>

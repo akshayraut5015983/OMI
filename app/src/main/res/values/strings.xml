@@ -1,0 +1,116 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" tools:ignore="PrivateResource">OMIAPP</string>
+    <string name="title_activity_menu">OMI</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password.</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="Price"><b>Price: </b></string>
+    <string name="Warrenty"><b>Warrenty: </b></string>
+    <string name="Guarantee"><b>Guarantee: </b></string>
+    <string name="Description"><b>Description: </b></string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="book">Book Appointment</string>
+    <string name="action_settings">Settings</string>
+    <string name="warning">OMI is not responsible for any cancellation/modification/damage/missinterpretation</string>
+
+    <string name="title_location_permission">Location Service</string>
+    <string name="text_location_permission">Enable Location Service to use Map</string>
+    <string name="ok">OK</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="route_distance">Distance</string>
+    <string name="route_distance_value">40.2 Km</string>
+    <string name="route_duration">Duration</string>
+    <string name="route_duration_value">48 mins</string>
+    <string name="server_error">Server error. Something when wrong with the server</string>
+    <string name="web_client_id">588306834739-7lhhlue2hh362lvqjeqtn7prb51okvha.apps.googleusercontent.com</string>
+    <string name="log_error_occurred">"Error occurred: "</string>
+    <string name="loading">Loading</string>
+
+
+    <string name="facebook_app_id">341185783292225</string>
+    <string name="fb_login_protocol_scheme">fb341185783292225</string>
+
+    <string name="notification_add_to_cart_button">Like</string>
+    <string name="group_name">Group 1</string>
+    <string name="notifications_admin_channel_name">Global channel</string>
+    <string name="notifications_admin_channel_description">Notifications sent from the app admin</string>
+    <string name="delete">Clear Notifications</string>
+    <string name="boarding_point">Boarding Point</string>
+    <string name="droping_point">Drop Point</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="email_mobile">Email/Mobile</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="next">NEXT</string>
+
+    <string name="slide_1_title">With a Wide Collection of Restaurants!</string>
+    <string name="slide_1_desc">The easiest way to order food from your favourite restaurant!</string>
+
+    <string name="slide_2_title">With a Wide Collection of Dhobiwala\'s Services</string>
+    <string name="slide_2_desc">Ready to take orders clothes of any types!</string>
+
+    <string name="slide_3_title">With a Wide Collection of Home Services</string>
+    <string name="slide_3_desc">We offer best services!</string>
+
+    <string name="slide_4_title">World Travel</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="set_location">SET DELIVERY LOCATION</string>
+    <string name="have_an_account">Have an Account?</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="new_user_sign_up">New User?sign Up</string>
+    <string name="fastest_delivery">Fastest delivery service in town</string>
+
+    <string name="app_update_default_title">App Update</string>
+    <string name="app_update_default_description">Looks like you have an older\nversion of the app.\nPlease update to get latest\nfeatures and best experience.</string>
+    <string name="app_update_positive_text">UPDATE NOW</string>
+    <string name="exclusive">Exclusive</string>
+    <string name="door_step_service">Door Step Service</string>
+    <string name="love_to_travel">Love to travel</string>
+    <string name="appointment_with_us">Appointment with Us</string>
+    <string name="e_store_wedding"><![CDATA[E-Store & Wedding]]></string>
+    <string name="near_by_you">Near By You</string>
+    <string name="item_qty">Item Qty</string>
+    <string name="item_name">Item Name</string>
+    <string name="price">Price</string>
+    <string name="garment_type">Garment Type</string>
+    <string name="set_delivery_location">Set delivery location :</string>
+    <string name="add_more_details">Add more details</string>
+    <string name="confirm_location">Confirm location</string>
+    <string name="landmark">Landmark</string>
+    <string name="save_and_proceed">Save and proceed</string>
+    <string name="location">Location</string>
+
+    <string name="mobile_number">Mobile Number</string>
+    <string name="login_sign_up">Login/Sign Up</string>
+
+
+    //----------------------------------------------//
+
+    <string name="not_available">Not Available</string>
+    <string name="server_not_available">Server Not Available</string>
+    <string name="noti_channel_default">omi_channel_default</string>
+    <string name="noti_channel_second">notify_channel_second</string>
+
+    <string-array name="size_entries">
+        <item>Select Your Comment</item>
+        <item>Good</item>
+        <item>Bad</item>
+    </string-array>
+
+    <!--<string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCb1oPoZe-8ZkotGVKd1GWW6cJEJ2nO7ps</string>-->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDhQ_b9Rwm0g0vyb8yHsimdM6mCoh1s9nQ</string>
+    <string name="gps_disbale">GPS is disable!</string>
+    <string name="gps_enable">GPS is Enable!</string>
+    <string name="open_location_settings">Setting</string>
+    <string name="cancel">Cancel</string>
+    <string name="resturent_error1">Restaurant is not found in your location</string>
+</resources>

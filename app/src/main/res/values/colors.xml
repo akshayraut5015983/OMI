@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1392E5</color>
+    <color name="colorPrimaryDark">#1392E5</color>
+    <color name="colorAccent">#1392E5</color>
+
+    <color name="colorWhite">#fff</color>
+    <color name="colorBlack">#000</color>
+    <color name="dark_blue_border">#2172B9</color>
+    <color name="orange">#e18f37</color>
+    <color name="red">#ae1111</color>
+    <color name="graytext">#ece7e7</color>
+    <color name="bg_row_background">#fa315b</color>
+    <color name="item_name">#535353</color>
+    <color name="description">#a9a9a9</color>
+    <color name="gray">#d7d7d7</color>
+
+    <color name="green">#0f560c</color>
+    <!-- Screens background color-->
+    <color name="bg_screen1">#f64c73</color>
+    <color name="bg_screen2">#20d2bb</color>
+    <color name="bg_screen3">#3395ff</color>
+    <color name="light_green">#37c160</color>
+    <color name="bg_screen4">#c873f4</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#d1395c</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#2278d4</color>
+    <color name="dot_dark_screen4">#a854d4</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#93c6fd</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+
+
+
+
+
+    <color name="sliderBackground">#2b66ff</color>
+    <color name="red_new">#E0001B</color>
+    <color name="red2">#e9e9e9</color>
+    <color name="colorAccentDark">#134e7e</color>
+    <color name="textColorMainList">#303030</color>
+    <color name="colorCombineDark">#d54ddc</color>
+    <color name="lite_gray">#f1f1f1</color>
+    <color name="lite_gray_trans">#97f1f1f1</color>
+    <color name="black">#000000</color>
+    <color name="lite_green">#209424</color>
+    <color name="dark_green">#1f7322</color>
+    <color name="lite_green2">#d5ffd7</color>
+    <color name="colorTrans1">#cdffffff</color>
+    <color name="colorTrans2">#88ffffff</color>
+    <color name="colorTrans3">#458dfc</color>
+    <color name="grayDark">#cfcfcf</color>
+    <color name="grayLight">#efefef</color>
+    <color name="grayLight2">#fafafa</color>
+    <color name="colorAlpha">#b0ffffff</color>
+    <color name="colorAlpha2">#87000000</color>
+    <color name="colorAboutUs">#303030</color>
+    <color name="colorTransGrey">#a3ffffff</color>
+    <color name="discoverBg">#7de6c6</color>
+    <color name="darkDiscountText">#940700</color>
+
+
+    <!--pay Start-->
+    <color name="cardBackgroundColor">#FF0000</color>
+    <color name="app_button_color">#2CA6CF</color>
+    <color name="light_white">#fcfcfc</color>
+
+
+    <color name="primary">#7AA4D5</color>
+    <color name="primary_dark">#165E8B</color>
+    <color name="accent">#7AA4D5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="persian_green_primary">#0DAC8F</color>
+    <color name="persian_green_dark">#0A927A</color>
+    <color name="persian_green_accent">#0A927A</color>
+    <color name="pink_primary">#EB1E63</color>
+    <color name="pink_dark">#C0175C</color>
+    <color name="pink_accent">#C0175C</color>
+    <color name="royal_blue_primary">#4C63E2</color>
+    <color name="royal_blue_dark">#4055BF</color>
+    <color name="royal_blue_accent">#4055BF</color>
+    <color name="purple_primary">#9C28B1</color>
+    <color name="purple_dark">#7A1FA2</color>
+    <color name="purple_accent">#7A1FA2</color>
+    <color name="orange_accent">#F3A62E</color>
+    <color name="indigo">#3E50AE</color>
+    <color name="pink">#FF427C</color>
+    <color name="grey">#C2C2C2</color>
+    <!--pay End-->
+
+
+
+</resources>

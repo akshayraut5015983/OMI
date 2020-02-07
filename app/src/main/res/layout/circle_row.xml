@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_productioninformation"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:divider="@color/white"
+    android:orientation="vertical"
+    android:showDividers="none">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/img"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:src="@drawable/veg"
+        android:scaleType="centerCrop"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp" />
+
+
+    <TextView
+        android:id="@+id/tv_hotel_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="welcome"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+</LinearLayout>

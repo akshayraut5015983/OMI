@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.omi.app">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but are recommended.
+    -->
+    <uses-sdk
+        tools:ignore="GradleOverrides"
+        tools:overrideLibrary="com.razorpay" />
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:name=".AppController"
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/omi_logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".activity.NotificationActivity"></activity>
+        <activity android:name=".activity.AddMoreAddress" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".activity.MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".activity.WalletActivity" />
+        <activity android:name=".activity.CityListActivity" />
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_live_qUNXAzuVxJ3A79" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".activity.SplashScreenActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- <receiver -->
+        <activity android:name=".activity.LoginActivity" />
+        <activity android:name=".activity.SignUpActivity" />
+        <activity android:name=".activity.DeliverLocationActivity" />
+        <activity android:name=".activity.OtpVerificationActivity" />
+        <activity android:name=".activity.CheckOutActivity" />
+        <activity android:name=".activity.OrderCompletionActivity" />
+        <activity android:name=".activity.ServicSubActivity" />
+        <activity android:name=".activity.LaundryServiceProviderActivity" />
+        <activity
+            android:name=".activity.OrderActivity"
+            android:theme="@style/AppTheme_Order" />
+        <activity android:name=".activity.CartListActivity" />
+        <activity android:name=".activity.RestaturuntActivity" />
+        <activity android:name=".activity.ForgotPassword" />
+        <activity android:name=".activity.RestaurantsActivity" />
+        <activity android:name=".activity.ResturentListActivity" />
+        <activity android:name=".activity.Cart2Activity" />
+        <activity android:name=".activity.HomeActivityDetils" />
+        <activity android:name=".activity.HomeActivity" />
+        <activity android:name=".activity.LoundryDetails" />
+        <activity android:name=".activity.LoundryService" />
+        <activity android:name=".activity.RestaurantsDetailsActivity" />
+        <activity android:name=".activity.HomeService" />
+        <activity android:name=".activity.LaundryServiceActivity" />
+        <activity
+            android:name=".activity.MenuAcitivty"
+            android:label="@string/title_activity_menu"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity android:name=".activity.ChangePasswordAcivity" />
+        <activity android:name=".activity.ProfileAcivity" />
+        <activity android:name=".activity.TermesAndCondiActivity" />
+        <activity android:name=".activity.ContactUS" />
+        <activity android:name=".activity.AboutActivity" />
+        <activity android:name=".activity.RestActivity" />
+        <activity android:name=".activity.WhatsNewActivity" />
+        <activity android:name=".activity.RatingActivtiy" />
+
+        <service
+            android:name=".notification.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

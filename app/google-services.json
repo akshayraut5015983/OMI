@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "588306834739",
+    "firebase_url": "https://omionline-c0f6f.firebaseio.com",
+    "project_id": "omionline-c0f6f",
+    "storage_bucket": "omionline-c0f6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588306834739:android:acf16c5264210b84",
+        "android_client_info": {
+          "package_name": "com.omi.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588306834739-e30hqon4ccnga16vdfukn10vreu0jodc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.omi.app",
+            "certificate_hash": "976ba4e8a6fb07dc35abe9daf55d652eea7c6b34"
+          }
+        },
+        {
+          "client_id": "588306834739-p7ur6o20ff2rhdpuvcd7rifaiu7q8i1c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.omi.app",
+            "certificate_hash": "e29143780f23480df5928c44016e9f2587ea1b46"
+          }
+        },
+        {
+          "client_id": "588306834739-g91a9tq3874h5lrbn4mkv41t0gri0g8n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.omi.app",
+            "certificate_hash": "8ac7c13a114665b506383f35e2a373cfeb7e511d"
+          }
+        },
+        {
+          "client_id": "588306834739-7lhhlue2hh362lvqjeqtn7prb51okvha.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGnS25KbJMOtCBAPwEyv0EPQlCnijHifU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588306834739-srge12ufsj7qsm60vbqfmce7blo9m37q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
